@@ -1,0 +1,27 @@
+Installing mcr with silent mode:
+setup -mode silent -agreeToLicense yes
+1. extract MCRInstaller.exe into a folder, setup is in bin/win64
+see here:
+http://uk.mathworks.com/help/compiler/working-with-the-mcr.html
+
+
+For azure deployment see here: https://social.technet.microsoft.com/Forums/lync/en-US/c1dbc930-4758-4326-84be-57c6bc9caf74/matlab-mcr-with-azure?forum=windowsazuredevelopment
+
+Notes on startup tasks: http://blog.smarx.com/posts/introduction-to-windows-azure-startup-tasks
+
+Silent installs: https://social.technet.microsoft.com/Forums/en-US/0408f4e0-0f06-4435-82e6-bb4d3ad38357/silent-installs?forum=mdt
+
+Azure start up tasks: http://blog.smarx.com/posts/windows-azure-startup-tasks-tips-tricks-and-gotchas
+
+<Environment>
+        <Variable name="PATH" value="D:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;" />
+</Environment>
+
+http://msdn.microsoft.com/en-us/library/azure/gg557552.aspx
+
+http://www.mathworks.com/matlabcentral/answers/94298-why-do-i-receive-an-error-regarding-missing-mclmcrrt7x-dll-when-i-run-my-stand-alone-application-com
+
+Final process:
+1. look at the script: InstallMatlabMCR.cmd
+2. add MCRInstaller.exe, unzip.exe, and InstallMatlabMCR.cmd to the web role project
+3. change servicedefinition.csdf by adding the tasks and enviornment variable.

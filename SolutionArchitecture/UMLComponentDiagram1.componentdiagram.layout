@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.625, 8.5" name="UMLComponentDiagram1">
+  <componentModelMoniker Id="d555fe62-1950-4bff-b241-95e288c05598" />
+  <nestedChildShapes>
+    <componentShape Id="38160de2-eb8f-4155-bb07-763518af176e" absoluteBounds="5, 2, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="04c00d27-fd75-41ed-a560-85bda4f1ca30" LastKnownName="Endpoint Service" />
+    </componentShape>
+    <componentShape Id="8846eaca-8de3-489c-bc61-d06c748bba32" absoluteBounds="7.75, 2, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="1e8bf4a7-a34f-41cc-8662-3f7b45c81645" LastKnownName="Cloud Queue" />
+    </componentShape>
+    <dependencyConnector edgePoints="[(6.5 : 2.44270787306976); (6.875 : 2.44270787306976); (6.875 : 2.449); (7.75 : 2.449)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="0a50a313-854c-4763-9d6a-6f93a497eca4" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="38160de2-eb8f-4155-bb07-763518af176e" />
+        <componentShapeMoniker Id="8846eaca-8de3-489c-bc61-d06c748bba32" />
+      </nodes>
+    </dependencyConnector>
+    <componentShape Id="b107a79d-396d-4ae1-b480-a624bd235c19" absoluteBounds="9.875, 1.375, 2.4375, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="293de4d2-03b4-450a-b496-34ac6a24f43b" LastKnownName="Processing Component 1" />
+    </componentShape>
+  </nestedChildShapes>
+</componentDiagram>

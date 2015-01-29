@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{72926F6F-B3D0-452F-8388-03261A033290}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "SelfAdaptiveSolutionTestPlatform", "SelfAdaptiveSolutionTestPlatform\SelfAdaptiveSolutionTestPlatform.ccproj", "{43A1E6B1-6236-48BC-92A0-E2401D6EACFF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FibonacciProcessor", "FibonacciProcessor\FibonacciProcessor.vbproj", "{89DCB2B8-799C-4835-BCB7-EBA67A0D1F63}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QueueMonitor", "QueueMonitor\QueueMonitor.vbproj", "{76EC7F9B-67BF-426D-9570-7AA59F24DFC8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FibonacciLibrary", "FibonacciLibrary\FibonacciLibrary.vbproj", "{B44EFF3A-2BBA-463D-813C-FE6CC4D112D6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LoadGenerator", "TestHarness\LoadGenerator.vbproj", "{68CCCC50-4F21-4BC1-BCBB-A437A4ABA085}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF49408B-1EAC-4E17-852D-046469755093} = {DF49408B-1EAC-4E17-852D-046469755093}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FibonacciListener", "FibonacciListener\FibonacciListener.vbproj", "{DF49408B-1EAC-4E17-852D-046469755093}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43A1E6B1-6236-48BC-92A0-E2401D6EACFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A1E6B1-6236-48BC-92A0-E2401D6EACFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A1E6B1-6236-48BC-92A0-E2401D6EACFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A1E6B1-6236-48BC-92A0-E2401D6EACFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89DCB2B8-799C-4835-BCB7-EBA67A0D1F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DCB2B8-799C-4835-BCB7-EBA67A0D1F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DCB2B8-799C-4835-BCB7-EBA67A0D1F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DCB2B8-799C-4835-BCB7-EBA67A0D1F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EC7F9B-67BF-426D-9570-7AA59F24DFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EC7F9B-67BF-426D-9570-7AA59F24DFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EC7F9B-67BF-426D-9570-7AA59F24DFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EC7F9B-67BF-426D-9570-7AA59F24DFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44EFF3A-2BBA-463D-813C-FE6CC4D112D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44EFF3A-2BBA-463D-813C-FE6CC4D112D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44EFF3A-2BBA-463D-813C-FE6CC4D112D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44EFF3A-2BBA-463D-813C-FE6CC4D112D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CCCC50-4F21-4BC1-BCBB-A437A4ABA085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CCCC50-4F21-4BC1-BCBB-A437A4ABA085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CCCC50-4F21-4BC1-BCBB-A437A4ABA085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CCCC50-4F21-4BC1-BCBB-A437A4ABA085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF49408B-1EAC-4E17-852D-046469755093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF49408B-1EAC-4E17-852D-046469755093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF49408B-1EAC-4E17-852D-046469755093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF49408B-1EAC-4E17-852D-046469755093}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

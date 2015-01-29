@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="d555fe62-1950-4bff-b241-95e288c05598" name="UMLComponentDiagram1" linkedPackageId="92b9d081-24da-41e1-95cd-94fee6bd20c5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="1392a22b-0673-47c4-911b-75ed2004ccb5">
+      <profileInstance Id="d108a1b0-63d6-4fe8-b013-abaa1d4dfad3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="75fea660-297c-45fa-addf-ba13c332111f">
+      <profileInstance Id="5133fd76-8885-4af6-b0ba-687183a4dfff" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="04c00d27-fd75-41ed-a560-85bda4f1ca30" name="Endpoint Service" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b31b0c36-3653-4f0c-9ac1-f5f425d03f5c" />
+        <suppliersInternal>
+          <dependency Id="0a50a313-854c-4763-9d6a-6f93a497eca4">
+            <componentMoniker Id="1e8bf4a7-a34f-41cc-8662-3f7b45c81645" LastKnownName="Cloud Queue" />
+            <elementDefinition Id="06ee2488-5f5f-4dbb-b50e-f0c54f465c40" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="1e8bf4a7-a34f-41cc-8662-3f7b45c81645" name="Cloud Queue" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="15d284c8-0759-4944-ae95-8e45f6273586" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="293de4d2-03b4-450a-b496-34ac6a24f43b" name="Processing Component 1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f0877068-9039-4dd0-8bd3-429b383dbd43" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="92b9d081-24da-41e1-95cd-94fee6bd20c5" name="SolutionArchitecture">
+    <elementDefinition Id="b70fcb24-5233-46c9-9d2a-8201e3268cf4" />
+  </package>
+</componentModel>
